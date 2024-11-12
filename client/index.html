@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Phish Listener</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="image">
+	</div>
+	<h1>Favorite Phish Shows</h1>
+	<button id="add-button">Add show</button>
+	<div id="popupOverlay">
+	<div id="popup-box">
+	<form name="show-form" id="form-container">
+		<label for="date">Date:</label><br>
+		<input type="text" id="date" name="date"><br>
+
+		<label for="location">Location:</label><br>
+		<input type="text" id="location" name="location"><br>
+
+		<label for="notes">Notes:</label><br>
+		<textarea name="notes" id="notes"></textarea><br>
+
+		<label for="jams">Standout Jams:</label><br>
+		<input type="text" id="jams" name="jams"><br>
+
+		<select name="rating" id="rating">
+			<option value="1 star">1 star</option>
+			<option value="2 stars">2 stars</option>
+			<option value="3 stars">3 stars</option>
+			<option value="4 stars">4 stars</option>
+			<option value="5 stars">5 stars</option>
+		</select><br>
+		<button type="button" id="save-button">Save show</button>
+	</form> 
+	</div>
+	</div>
+	<section id="shows">
+	</section>
+	<script src="app.js"></script>
+</body>
+</html>
+
+

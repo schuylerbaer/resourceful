@@ -1,0 +1,133 @@
+.gemunu-libre-<gemunu> {
+  font-family: "Gemunu Libre", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.oxanium-<oxanium> {
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #081E33;
+	font-family: 'Oxanium';
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+h1 {
+	/*font-family: 'Gemunu Libre';*/
+	color: #F22C6B;
+	text-align: center;
+}
+
+hr {
+	color: #4B76DE;
+}
+
+form {
+	color: #4B76DE;
+}
+
+input {
+	margin-top: 3px;
+	margin-bottom: 15px;
+	padding: 5px;
+}
+
+#date {
+	width: 5em;
+}
+
+#notes {
+	width: 70%;
+	height: 150px;
+	padding: 5px;
+	margin-bottom: 15px;
+	resize: none;
+}
+
+#rating {
+	margin-bottom: 15px;
+}
+
+button {
+	font-weight: bold;
+	font-size: 16px;
+	padding: 5px 16px 5px 16px;
+	border: none;
+	border-radius: 12px;
+	text-align: center;
+	margin: 10px;
+}
+
+.collapsible {
+	font-family: 'Oxanium';
+	font-weight: bold;
+	color: #4B76DE;
+	background-color: #081E33;
+	cursor: pointer;
+	width: 30%;
+	height: 50px;
+	border: solid;
+	border-radius: 12px;
+	text-align: center;
+	outline: none;
+	margin-bottom: 15px;
+}
+
+.active, .collapsible:hover {
+	background-color: #ccc;
+}
+
+.content {
+	display: none;
+}
+
+h2 {
+	color: #4B76DE;
+}
+
+h3 {
+	color: #A9BEEF;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+p {
+	color: #6F7EA1;
+	word-wrap: break-word;
+}
+
+#form-container {
+	display: none;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #081E33;
+}
+
+.image {
+	background-image: url('https://static.wixstatic.com/media/26e1a7_529714f6396642c3ba9f2876b56e9d36~mv2.jpg/v1/fit/w_720%2Ch_479%2Cal_c%2Cq_80/file.jpg');
+	width: 100%;
+	height: 200px;
+	background-position: center bottom;
+}
+
